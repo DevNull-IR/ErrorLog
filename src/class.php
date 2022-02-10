@@ -1,5 +1,5 @@
 <?pho
-
+namespace src\ErrorLog;
 class ErrorLog {
   public $FileNameErrorLog = "error.log";
   public static function __construct ($FileNameErrorLog){
