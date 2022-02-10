@@ -1,4 +1,4 @@
-<?pho
+<?php
 namespace src\ErrorLog;
 class ErrorLog {
   public $FileNameErrorLog = "error.log";
