@@ -1,4 +1,6 @@
 <?php 
-include_once '../src/class.php';
-use src\ErrorLog;
-$errorlog = ErrorLog::s;
+require_once '../src/class.php';
+
+$ErrorLog = new ErrorLog();
+
+$ErrorLog->ErrorLog('Test');
