@@ -6,6 +6,6 @@ class ErrorLog {
     $this->FileNameErrorLog = $FileNameErrorLog;
   }
   public function ErrorLog((string)$value){
-    file_put_contents($this->FileNameErrorLog,$value,FILE_APPEND);
+    file_put_contents($this->FileNameErrorLog,$value . PHP_EOL ,FILE_APPEND);
   }
 }
